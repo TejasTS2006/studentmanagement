@@ -144,7 +144,7 @@ const Layout = () => {
               <div className="h-10 w-10 rounded-full bg-primary-100 dark:bg-primary-900 flex items-center justify-center overflow-hidden">
                 {user?.profilePicture ? (
                   <img 
-                    src={`http://localhost:5000${user.profilePicture}`} 
+                    src={`https://studentmanagement-zv5g.onrender.com${user.profilePicture}`} 
                     alt={user.fullName || user.username}
                     className="h-full w-full object-cover"
                   />
