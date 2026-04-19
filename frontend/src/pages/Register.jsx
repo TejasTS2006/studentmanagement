@@ -41,7 +41,7 @@ const Register = () => {
   const fetchClasses = async () => {
     try {
       // Use public endpoint since user is not logged in yet during registration
-      const response = await fetch('http://localhost:5000/api/classes/public');
+      const response = await fetch('https://studentmanagement-zv5g.onrender.com/api/classes/public');
       const data = await response.json();
       setClasses(data.classes || []);
     } catch (err) {
