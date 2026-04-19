@@ -111,7 +111,7 @@ const StudentProfile = () => {
           <div className="h-24 w-24 rounded-full bg-primary-100 dark:bg-primary-900 flex items-center justify-center overflow-hidden">
             {user?.profilePicture ? (
               <img 
-                src={`http://localhost:5000${user.profilePicture}`} 
+                src={`https://studentmanagement-zv5g.onrender.com${user.profilePicture}`} 
                 alt={user.fullName}
                 className="h-full w-full object-cover"
               />
