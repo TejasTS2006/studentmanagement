@@ -8,7 +8,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'httphttps://studentmanagement-zv5g.onrender.com://localhost:5000',
+        target: 'https://studentmanagement-zv5g.onrender.com',
         changeOrigin: true,
       },
     },
